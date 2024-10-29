@@ -5,7 +5,6 @@ import App from './App.vue'
 
 const app = createApp(App)
 
-// Подключаем хранилище Pinia
 const pinia = createPinia()
 app.use(pinia)
 
