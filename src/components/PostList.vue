@@ -14,7 +14,7 @@ import PostItem from './PostItem.vue'
 import { toRefs } from 'vue'; // Импортируйте toRefs
 
 const postStore = usePostStore();
-const { posts } = toRefs(postStore); // Используйте toRefs для реактивности
+const { posts } = toRefs(postStore);
 const addPost = postStore.addPost;
 </script>
 
