@@ -27,7 +27,7 @@ export const usePostStore = defineStore('postStore', () => {
   }
 
   function removePost(id) {
-    console.log('Удаление поста с id:', id) // Лог для отладки
+    console.log('Удаление поста с id:', id)
     posts.value = posts.value.filter(post => post.id !== id)
   }
 
