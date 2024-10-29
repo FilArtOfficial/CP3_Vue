@@ -41,7 +41,7 @@ const saveEdit = () => {
 }
 
 const removePost = () => { 
-  console.log(`Попытка удалить пост с ID: ${props.post.id}`); // Логирование удаления
+  console.log(`Попытка удалить пост с ID: ${props.post.id}`);
   postStore.removePost(props.post.id) 
 }
 
